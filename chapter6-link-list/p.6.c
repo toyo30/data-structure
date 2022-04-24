@@ -24,7 +24,8 @@ int main()
 
     node2->next = NULL;
 
-
+    
+  
 
     struct node *curr = head->next;
     while(curr != NULL)
@@ -42,7 +43,6 @@ int main()
         printf("%d\n", curr->data);
         curr = curr->next;
     }
-
 
     delete_after(head);
 

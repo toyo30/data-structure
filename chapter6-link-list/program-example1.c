@@ -7,10 +7,14 @@ struct node
     struct node *next;
 };
 struct node *start = NULL;
+struct node *create_ll(struct node *);
+struct node *display(struct node *);
+
+
 
 int main()
 {
 
-    printf("%d", start->data);
+   
     return 0;
 }
