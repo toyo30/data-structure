@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-// typedef struct {
-//     int x;
-//     int y;
-// }complex;
-
 
 typedef struct {
     double real;
@@ -12,18 +7,7 @@ typedef struct {
 }complex;
 
 
-// double sum_r;
-// double sum_c;
-
-// void Add(complex);
-
-// void display(int, int);
-
-// void Add(complex, complex, int *, int *);
-// void Add(complex, complex, complex *);
 void Add(complex, complex, complex *);
-
-
 
 int main(void)
 {
@@ -41,14 +25,9 @@ int main(void)
     scanf("%lf", &num2.real);
     scanf("%lf", &num2.image);
 
-   
-    
-    // Add(num1, num2, add);
+
     Add(num1, num2, &add);
 
-
-
-    
     printf("Sum = %.1f + %.1fi", add.real, add.image);
 
     return 0;

@@ -12,8 +12,6 @@ int main(void)
         {
             printf("Enter a%d%d :", i + 1, j + 1);
             scanf("%f", &arr_a[i][j]);
-            // printf("\n");
-            // printf("%f \n", arr_a[i][j]);
         }
     }
     printf("Enter elements of 2nd matrix\n");
@@ -23,8 +21,6 @@ int main(void)
         {
             printf("Enter b%d%d :", i + 1, j + 1);
             scanf("%f", &arr_b[i][j]);
-            // printf("\n");
-            // printf("%f \n", arr_b[i][j]);
         }
     }
 
